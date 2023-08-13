@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <title>Retinopathy Detection</title>
+</head>
+<body>
+    <header>
+        <h1>Retinopathy Detection</h1>
+    </header>
+    <main>
+        <div class="home-container">
+            <div class="intro">
+                <h2>Empowering Early Diagnosis Through AI</h2>
+                <p>Welcome to Retinopathy Detection, where cutting-edge technology meets healthcare innovation. Our platform is dedicated to detecting retinopathy at its earliest stages, ensuring timely treatment and preventing vision loss. Join us in the mission to safeguard your vision.</p>
+            </div>
+            
+            <div class="explanation">
+                <h3>Why Trust Retinopathy Detection?</h3>
+                <ul>
+                    <li>Advanced AI Algorithms: Accurate and reliable analysis of retinal images using state-of-the-art AI.</li>
+                    <li>Expert Backing: Developed with input from medical professionals and specialists.</li>
+                    <li>Data Privacy Assurance: Your sensitive information is handled securely and confidentially.</li>
+                    <li>Timely Detection: Aid in the early diagnosis and prevention of retinopathy-related vision loss.</li>
+                    <li>Join the Cause: Upload your retinal image to experience the benefits of early detection.</li>
+                </ul>
+            </div>
+            
+            <div class="cta">
+                <h3>Take Control of Your Vision Health</h3>
+                <p>Early detection can make all the difference. Upload your retinal image now and receive instant analysis results. Empower yourself with knowledge and take a step towards preserving your precious eyesight.</p>
+                <button class="upload-button">Upload Your Image</button>
+            </div>
+        </div>
+        
+        <!-- Image Upload Section -->
+        <section class="image-upload">
+            <h2>Upload Retinal Image</h2>
+            <!-- Add your image upload form here -->
+        </section>
+        
+        <!-- Result Display Section -->
+        <section class="result-display">
+            <h2>Analysis Results</h2>
+            <!-- Add your result display elements here -->
+        </section>
+        
+        <!-- Work in Progress Screen -->
+        <section class="work-in-progress">
+            <h2>Analysis in Progress</h2>
+            <p>Please wait while we analyze the image...</p>
+            <!-- Add a loading spinner or animation here -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Retinopathy Detection</p>
+    </footer>
+
+    <script>
+        // JavaScript to update the current year in the footer
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    </script>
+</body>
+</html>
